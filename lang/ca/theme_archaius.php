@@ -22,27 +22,27 @@
  */
 //REGIONS
 $string['pluginname'] = 'Archaius';
-$string['region-side-post'] = 'Derecha';
-$string['region-side-pre'] = 'Izquierda';
-$string['region-side-center-pre'] = "Antes del contenido principal";
-$string['region-side-center-post'] = "Después del contenido principal";
-$string['region-footer-left'] = "Izquierda footer";
-$string['region-footer-center'] = "Centro footer";
-$string['region-footer-right'] = "Derecha footer";
+$string['region-side-post'] = 'Dreta';
+$string['region-side-pre'] = 'Esquerra';
+$string['region-side-center-pre'] = "Abans del contingut principal";
+$string['region-side-center-post'] = "Després del contingut principal";
+$string['region-footer-left'] = "Esquerra footer";
+$string['region-footer-center'] = "Centre footer";
+$string['region-footer-right'] = "Dreta footer";
 //PRESENTATION PAGE
 $string['choosereadme'] = '<div class="clearfix"><div class="theme_screenshot"><h2>Archaius</h2>
 <img src="archaius/pix/screenshot.png" />
-<h3>Créditos</h3><p><a href="http://docs.moodle.org/en/Theme_credits">http://docs.moodle.org/en/Theme_credits</a></p>
-<h3>Documentación</h3>
+<h3>Crèdits</h3><p><a href="http://docs.moodle.org/en/Theme_credits">http://docs.moodle.org/en/Theme_credits</a></p>
+<h3>Documentació</h3>
 <p><a href="http://docs.moodle.org/en/Themes">http://docs.moodle.org/en/Themes</a></p>
 <p><a href="https://github.com/dmuneras/moodle-theme_archaius/wiki">Archaius wiki</a></p>
-<h3>Reportar un error o proponer una mejora</h3>
+<h3>Informar d'un un error o una millora</h3>
 <p><a href="http://tracker.moodle.org">http://tracker.moodle.org</a></p>
 <p><a href="https://github.com/dmuneras/moodle-theme_archaius/issues">Proyecto en Github</a></p>
 </div>
-<div class="theme_description"><h2>Acerca de</h2><p>Archaius es un tema gráfico de tres columnas que se caracteriza por sus bloques y temario en los cursos.
-Es muy flexible, cuenta con diferentes opciones para el cambio de apariencia y con poco conocimiento en desarrollo para web se pueden lograr grandes resultados.</p>
-<p>Propongo una solución diferentes para \'Docking blocks\'.</p>
+<div class="theme_description"><h2>Acerca de</h2><p>Archaius és un tema gràfic de tres columnes caracteritzat pels temaris i els blocs.
+EÉs molt flexible i es pot modificar l'aparença.</p>
+<p>Una solució diferent per \'Docking blocks\'.</p>
 <h2>Tweaks</h2>
 <p>Si piensas modificar el tema es recomendable que lo dupliques primero y le cambies el nombre. Esto evitará que sus cambios sean sobreescritos por actualizaciones, y vas a tener los archivos originales por si algo malo ocurre.
 Más información para la modificación de temas puede ser encontrada en: <a href="http://docs.moodle.org/en/Theme">MoodleDocs</a>.</p>
@@ -53,16 +53,16 @@ Archaius fue creado por Daniel Múnera Sánchez (dmunera119@gmail.com)</p>
 //THEME OPTIONS
 //TITLES
 $string['logossectiontitle'] = 'Logos';
-$string['logossectiondesc'] = 'Personalización de logos';
-$string['logossectionsub'] = 'Opciones para modificar los logos';
+$string['logossectiondesc'] = 'Personalitació de logos';
+$string['logossectionsub'] = 'Opcions per modificar els logos';
 $string['layoutcolorssectiontitle'] = 'Layout';
-$string['layoutcolorssectiondesc'] = 'Personalización del Layout';
-$string['layoutcolorssectionsub'] = 'Personalización del layout';
-$string['footersectiontitle'] = 'Pie de página';
-$string['footersectionsub'] = 'Personalización del Pie de página';
+$string['layoutcolorssectiondesc'] = 'Personalització del Layout';
+$string['layoutcolorssectionsub'] = 'Personalització del layout';
+$string['footersectiontitle'] = 'Peu de pàgina';
+$string['footersectionsub'] = 'Personalització del Peu de pàgina';
 $string['footersectiondesc'] = 'Adiciona HTML a tu pie de página usando el editor, o puedes utlizar bloques en el pie de página, puedes ver esta opción cuando quieres añadir un bloque en una página.';
-$string['jssectiontitle'] = 'Efectos';
-$string['jssectionsub'] = 'Activar o desactivar los efectos del tema';
+$string['jssectiontitle'] = 'Efectes';
+$string['jssectionsub'] = 'Activar o desactivar els efectes del tema';
 $string['jssectiondesc'] = 'Active o desactive los efectos del tema utilizando las siguientes opciones';
 $string['slideshowsectiontitle'] = 'Carrusel';
 $string['slideshowsectionsub'] = 'Personalización del carrusel';
@@ -81,15 +81,15 @@ $string['customcss'] = 'Reglas CSS personalizadas.';
 $string['customcssdesc'] = 'Puedes añadir reglas CSS personalizadas para mejorar tu diseño.';
 $string['customjs'] = 'Javascript';
 $string['customjsdesc'] = 'Puedes añadir Javacript a tu sitio, jQuery esta disponible.';
-$string['footnote'] = "Nota de pie.";
-$string['footnotedesc'] = "Nota de pie.";
+$string['footnote'] = "Nota al peu.";
+$string['footnotedesc'] = "Nota al peu.";
 $string['themecolor'] = "Color para el Header y el Footer de tu sitio.";
 $string['themecolordesc'] = "Elige el color del Header y el Footer de tu sitio.";
 $string['headercolor'] = "Color de los encabezados de los bloques.";
 $string['headercolordesc'] = "Elige el color de los encabezados de los bloques.";
 $string['currentcolor'] = "Color del encabezado del bloque actual.";
 $string['currentcolordesc'] = "Color del encabezado actual.";
-$string['bgcolor'] = "Color de fondo.";
+$string['bgcolor'] = "Color de fons.";
 $string['bgcolordesc'] = "Elige el Color de fondo de tu sitio.";
 $string['custommenucolor'] = "Color del menú horizontal.";
 $string['custommenucolordesc'] = "Color del menú horizontal.";
@@ -108,14 +108,14 @@ $string["headertextcolordesc"] = "Color del texto en el encabezado del sitio";
 $string["footertextcolor"] = "Color del texto en el pie de página del sitio";
 $string["footertextcolordesc"] = "Color del texto en el pie de página del sitio";
 //SOCIAL ICONS
-$string["facebook"] = "Dirección web del perfil de facebook de la institución";
-$string["facebookdesc"] = "Dirección web del perfil de facebook de la institución";
-$string["twitter"] = "Dirección web del perfil de twitter de la institución";
-$string["twitterdesc"] = "Dirección web del perfil de facebook de la institución";
-$string["youtube"] = "Dirección web del perfil de youtube de la institución";
-$string["youtubedesc"] = "Dirección web del perfil de youtube de la institución";
-$string["linkedin"] = "Dirección web del perfil de linkedin de la institución";
-$string["linkedindesc"] = "Dirección web del perfil de linkedin de la institución";
+$string["facebook"] = "Adreça web del perfil de facebook del centre";
+$string["facebookdesc"] = "Adreça web del perfil de facebook del centre";
+$string["twitter"] = "Adreça web del perfil de twitter del centre";
+$string["twitterdesc"] = "Adreça web del perfil de facebook del centre";
+$string["youtube"] = "Adreça web del perfil de youtube del centre";
+$string["youtubedesc"] = "Adreça web del perfil de youtube del centre";
+$string["linkedin"] = "Adreça web del perfil de linkedin del centre";
+$string["linkedindesc"] = "Adreça web del perfil de linkedin del centre";
 //SLIDESHOW
 $string["description"] = "Insertar HTML para crear un <i>slide</i>.";
 $string["position"] = "Posición del <i>slide</i>.";
